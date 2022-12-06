@@ -1,0 +1,24 @@
+{
+  "name": "bs-brain",
+  "version": "1.0.1",
+  "description": "Bootstrap Brain (BSB) Framework is built on top of Bootstrap 5. We have extended Bootstrap 5 with basic styles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BootstrapBrain/bs-brain.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "html"
+  ],
+  "author": "BootstrapBrain.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BootstrapBrain/bs-brain/issues"
+  },
+  "homepage": "https://bootstrapbrain.com/bsb-framework/"
+}
