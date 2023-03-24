@@ -2,7 +2,7 @@
 Bootstrap Brain (BSB) Framework is built on top of Bootstrap 5. We have extended Bootstrap 5 with basic styles.
 
 * [Bootstrap](https://getbootstrap.com/) - v5.3.0-alpha1
-* [BSB Framework](https://bootstrapbrain.com/bsb-framework/) - v1.0.3
+* [BSB Framework](https://bootstrapbrain.com/bsb-framework/) - v1.0.4
 
 ## Free Bootstrap Components
 
