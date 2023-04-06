@@ -1,6 +1,6 @@
 {
   "name": "bs-brain",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bootstrap Brain (BSB) Framework is built on top of Bootstrap 5. We have extended Bootstrap 5 with basic styles.",
   "main": "index.js",
   "scripts": {
