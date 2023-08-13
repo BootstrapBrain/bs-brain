@@ -1,7 +1,7 @@
 {
   "name": "bs-brain",
-  "version": "1.0.5",
-  "description": "Bootstrap Brain (BSB) Framework is built on top of Bootstrap 5. We have extended Bootstrap 5 with basic styles.",
+  "version": "2.0.0",
+  "description": "Bootstrap Brain (BSB) Framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
