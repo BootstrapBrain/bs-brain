@@ -1,0 +1,110 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/timelines/timeline-1/component.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+/* stylelint-disable no-invalid-position-at-import-rule */ /* stylelint-disable scss/no-global-function-names */ /* stylelint-disable function-comma-space-after */
+/* stylelint-disable function-parentheses-space-inside */
+/* stylelint-disable scss/no-global-function-names */
+/* stylelint-disable indentation */
+.fs-7 {
+  font-size: 0.875rem !important;
+}
+
+.bsb-timeline-1 {
+  --bsb-tl-color: var(--bs-primary-bg-subtle);
+  --bsb-tl-circle-color: var(--bs-light);
+  --bsb-tl-circle-border-color: var(--bs-primary);
+  --bsb-tl-indicator-color: var(--bs-white);
+  --bsb-tl-circle-size: 16px;
+  --bsb-tl-circle-offset: 8px;
+  --bsb-tl-circle-border-size: 2px;
+}
+.bsb-timeline-1 .timeline {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bsb-timeline-1 .timeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: var(--bsb-tl-color);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -1px;
+}
+@media (min-width: 768px) {
+  .bsb-timeline-1 .timeline::after {
+    left: 33%;
+  }
+}
+.bsb-timeline-1 .timeline > .timeline-item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.bsb-timeline-1 .timeline > .timeline-item::after {
+  content: "";
+  position: absolute;
+  width: var(--bsb-tl-circle-size);
+  height: var(--bsb-tl-circle-size);
+  top: calc(50% - var(--bsb-tl-circle-offset));
+  left: calc(var(--bsb-tl-circle-offset) * -1);
+  background: var(--bsb-tl-circle-color);
+  border: var(--bsb-tl-circle-border-size) solid var(--bsb-tl-circle-border-color);
+  border-radius: 50%;
+  z-index: 1;
+}
+.bsb-timeline-1 .timeline > .timeline-item .timeline-body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.bsb-timeline-1 .timeline > .timeline-item .timeline-meta {
+  padding: 0 0 1rem 2rem;
+}
+.bsb-timeline-1 .timeline > .timeline-item:first-child .timeline-meta {
+  padding: 2rem 0 1rem 2rem;
+}
+.bsb-timeline-1 .timeline > .timeline-item .timeline-content {
+  padding: 0 0 2rem 2rem;
+}
+@media (min-width: 768px) {
+  .bsb-timeline-1 .timeline > .timeline-item {
+    width: 67%;
+    left: 33%;
+  }
+  .bsb-timeline-1 .timeline > .timeline-item .timeline-meta {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: calc(50% - 10px);
+    display: flex;
+    justify-content: flex-end;
+    left: -100%;
+    padding: 0 2rem 0 0;
+    z-index: 1;
+  }
+  .bsb-timeline-1 .timeline > .timeline-item:first-child .timeline-meta {
+    padding: 0 2rem 0 0;
+  }
+  .bsb-timeline-1 .timeline > .timeline-item .timeline-content {
+    padding: 2rem;
+  }
+  .bsb-timeline-1 .timeline > .timeline-item .timeline-indicator {
+    position: relative;
+  }
+  .bsb-timeline-1 .timeline > .timeline-item .timeline-indicator::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - var(--bsb-tl-circle-offset));
+    left: calc(2rem - 10px);
+    border: 1px solid var(--bsb-tl-indicator-color);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--bsb-tl-indicator-color) transparent transparent;
+    z-index: 1;
+  }
+}
+
+/*# sourceMappingURL=timeline-1.css.map*/
